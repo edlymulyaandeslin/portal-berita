@@ -46,7 +46,7 @@ php artisan key:generate
 
 php artisan migrate
 
-# or
+#### or
 
 php artisan migrate --seed
 
