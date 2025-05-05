@@ -36,22 +36,32 @@ cd portal-berita
 
 ### 2. Install Dependency
 
+```bash
 composer install
 npm install
+```
 
 ### 3. Setup Environment
 
+```bash
 cp .env.example .env
 php artisan key:generate
+```
 
 ### 4. Jalankan Migration
 
+```bash
 php artisan migrate
+```
 
 #### or
 
+```bash
 php artisan migrate --seed
+```
 
 ### 5. Jalankan Server
 
+```bash
 composer run dev
+```
