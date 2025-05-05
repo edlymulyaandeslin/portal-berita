@@ -29,8 +29,10 @@ Portal Berita adalah aplikasi web untuk menampilkan dan mengelola berita terkini
 
 ### 1. Clone Repository
 
+```bash
 git clone https://github.com/username/portal-berita.git
 cd portal-berita
+```
 
 ### 2. Install Dependency
 
